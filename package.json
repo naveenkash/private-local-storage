@@ -1,0 +1,36 @@
+{
+  "name": "private-local-storage",
+  "version": "1.0.0",
+  "description": "Store data in local storage securily",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naveenkash/private-local-storage.git"
+  },
+  "keywords": [
+    "local storage",
+    "secure",
+    "private",
+    "crypto",
+    "hash"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naveenkash/private-local-storage/issues"
+  },
+  "homepage": "https://github.com/naveenkash/private-local-storage#readme",
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.50.0",
+    "webpack-cli": "^4.8.0"
+  }
+}
