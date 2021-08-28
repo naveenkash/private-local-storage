@@ -1,0 +1,9 @@
+# dependencies
+/ode_modules
+
+# build config files
+.babelrc
+webpack.config.js
+
+# source folder
+/src

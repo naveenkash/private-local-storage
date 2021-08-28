@@ -2,7 +2,7 @@
   "name": "private-local-storage",
   "version": "1.0.0",
   "description": "Store data in local storage securily",
-  "main": "index.js",
+  "main": "./lib/app.bundle.js",
   "scripts": {
     "webpack": "webpack"
   },
