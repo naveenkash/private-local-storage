@@ -33,3 +33,12 @@ PrivateLocalStorage.prototype.setItem = function (key, data) {
   let encryptedData = AES.encrypt(value, _.privateKey);
   _.storage.setItem(hashedKey, encryptedData);
 };
+
+PrivateLocalStorage.prototype.deleteItem = function (key) {
+  const _ = this;
+  if (!key) {
+    throw new Error("Key is missing!");
+  }
+  let hashedKey = sha256(key);
+  _.storage.removeItem(hashedKey);
+};
