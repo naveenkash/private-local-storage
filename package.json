@@ -1,10 +1,11 @@
 {
   "name": "private-local-storage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Store data in local storage securily",
   "main": "./lib/app.bundle.js",
   "scripts": {
-    "webpack": "webpack"
+    "webpack": "webpack",
+    "prepublishOnly": "webpack --mode=production"
   },
   "repository": {
     "type": "git",
